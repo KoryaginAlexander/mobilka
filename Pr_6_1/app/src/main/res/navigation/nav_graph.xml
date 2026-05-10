@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/photoListFragment">
+
+    <fragment
+        android:id="@+id/photoListFragment"
+        android:name="com.example.pr_6_1.presentation.list.PhotoListFragment"
+        android:label="Photo Gallery">
+        <action
+            android:id="@+id/action_list_to_detail"
+            app:destination="@id/photoDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/photoDetailFragment"
+        android:name="com.example.pr_6_1.presentation.detail.PhotoDetailFragment"
+        android:label="Photo Detail">
+        <argument android:name="photoId" app:argType="string" />
+        <argument android:name="author" app:argType="string" />
+        <argument android:name="width" app:argType="integer" />
+        <argument android:name="height" app:argType="integer" />
+        <argument android:name="downloadUrl" app:argType="string" />
+    </fragment>
+
+</navigation>

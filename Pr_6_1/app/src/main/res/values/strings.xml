@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Photo Gallery</string>
+    <string name="photo_thumbnail">Миниатюра фото</string>
+    <string name="photo_full">Полное фото</string>
+</resources>
