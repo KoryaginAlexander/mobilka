@@ -15,8 +15,10 @@ fun Application.configureJwtAuthentication(jwtService: JwtService) {
             realm = "Nobel Prize Mock API"
             verifier(jwtService.verifier())
             validate { credential ->
+                val sub = credential.payload.subject
                 val username = credential.payload.getClaim("username").asString()
-                if (!username.isNullOrBlank()) JWTPrincipal(credential.payload) else null
+                val userId = sub?.toIntOrNull()
+                if (userId != null && !username.isNullOrBlank()) JWTPrincipal(credential.payload) else null
             }
         }
     }

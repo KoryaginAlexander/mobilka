@@ -10,9 +10,15 @@ data class LoginRequest(
 
 @Serializable
 data class LoginResponse(
-    val accessToken: String,
+    val token: String,
     val tokenType: String = "Bearer",
     val expiresIn: Long = 1800,
+)
+
+@Serializable
+data class RegisterRequest(
+    val username: String,
+    val password: String,
 )
 
 @Serializable

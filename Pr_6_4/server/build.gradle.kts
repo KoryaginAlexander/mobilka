@@ -18,9 +18,24 @@ dependencies {
     implementation(libs.ktor.server.auth.jwt)
     implementation(libs.ktor.server.call.logging)
     implementation(libs.ktor.server.status.pages)
+    implementation(libs.ktor.server.cors)
+    implementation(libs.ktor.client.core)
+    implementation(libs.ktor.client.cio)
+    implementation(libs.ktor.client.content.negotiation)
+
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.java.jwt)
     implementation(libs.logback.classic)
+
+    implementation(libs.exposed.core)
+    implementation(libs.exposed.jdbc)
+    implementation(libs.postgresql)
+    implementation(libs.hikari)
+    implementation(libs.bcrypt)
+
+    implementation(libs.ktor.openapi)
+    implementation(libs.ktor.swagger.ui)
+    implementation(libs.ktor.redoc)
 }
 
 java {

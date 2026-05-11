@@ -20,7 +20,8 @@ data class ApiLink(
 @Serializable
 data class Laureate(
     val id: String,
-    val knownName: LocalizedStrings,
+    /** У части записей (организации и т.п.) в API поле может отсутствовать. */
+    val knownName: LocalizedStrings = LocalizedStrings(),
     val fullName: LocalizedStrings? = null,
     val portion: String? = null,
     val sortOrder: String? = null,
@@ -41,8 +42,16 @@ data class NobelPrize(
 )
 
 @Serializable
+data class NobelListMeta(
+    val offset: Int? = null,
+    val limit: Int? = null,
+    val count: Int? = null,
+)
+
+@Serializable
 data class NobelPrizesEnvelope(
     val nobelPrizes: List<NobelPrize>,
+    val meta: NobelListMeta? = null,
 )
 
 @Serializable
