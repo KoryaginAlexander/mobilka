@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Pr_6_4"
 include(":app")
- 
+include(":server")

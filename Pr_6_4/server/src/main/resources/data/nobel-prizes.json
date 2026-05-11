@@ -1,0 +1,344 @@
+{
+  "nobelPrizes": [
+    {
+      "awardYear": "1901",
+      "category": {
+        "en": "Chemistry",
+        "no": "Kjemi",
+        "se": "Kemi"
+      },
+      "categoryFullName": {
+        "en": "The Nobel Prize in Chemistry",
+        "no": "Nobelprisen i kjemi",
+        "se": "Nobelpriset i kemi"
+      },
+      "dateAwarded": "1901-11-12",
+      "prizeAmount": 150782,
+      "prizeAmountAdjusted": 10833458,
+      "links": [
+        {
+          "rel": "nobelPrize",
+          "href": "https://api.nobelprize.org/2/nobelPrize/che/1901",
+          "action": "GET",
+          "types": "application/json"
+        }
+      ],
+      "laureates": [
+        {
+          "id": "160",
+          "knownName": {
+            "en": "Jacobus H. van 't Hoff"
+          },
+          "fullName": {
+            "en": "Jacobus Henricus van 't Hoff"
+          },
+          "portion": "1",
+          "sortOrder": "1",
+          "motivation": {
+            "en": "in recognition of the extraordinary services he has rendered by the discovery of the laws of chemical dynamics and osmotic pressure in solutions",
+            "se": "såsom ett erkännande av den utomordentliga förtjänst han inlagt genom upptäckten av lagarna för den kemiska dynamiken och för det osmotiska trycket i lösningar"
+          },
+          "links": [
+            {
+              "rel": "laureate",
+              "href": "https://api.nobelprize.org/2/laureate/160",
+              "action": "GET",
+              "types": "application/json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "awardYear": "1901",
+      "category": {
+        "en": "Literature",
+        "no": "Litteratur",
+        "se": "Litteratur"
+      },
+      "categoryFullName": {
+        "en": "The Nobel Prize in Literature",
+        "no": "Nobelprisen i litteratur",
+        "se": "Nobelpriset i litteratur"
+      },
+      "dateAwarded": "1901-11-14",
+      "prizeAmount": 150782,
+      "prizeAmountAdjusted": 10833458,
+      "links": [
+        {
+          "rel": "nobelPrize",
+          "href": "https://api.nobelprize.org/2/nobelPrize/lit/1901",
+          "action": "GET",
+          "types": "application/json"
+        }
+      ],
+      "laureates": [
+        {
+          "id": "569",
+          "knownName": {
+            "en": "Sully Prudhomme"
+          },
+          "fullName": {
+            "en": "Sully Prudhomme"
+          },
+          "portion": "1",
+          "sortOrder": "1",
+          "motivation": {
+            "en": "in special recognition of his poetic composition, which gives evidence of lofty idealism, artistic perfection and a rare combination of the qualities of both heart and intellect",
+            "se": "såsom ett erkännande av hans utmärkta, jämväl under senare år ådagalagda förtjänster som författare och särskilt av hans om hög idealitet, konstnärlig fulländning samt sällspord förening av hjärtats och snillets egenskaper vittnande diktning"
+          },
+          "links": [
+            {
+              "rel": "laureate",
+              "href": "https://api.nobelprize.org/2/laureate/569",
+              "action": "GET",
+              "types": "application/json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "awardYear": "1901",
+      "category": {
+        "en": "Peace",
+        "no": "Fred",
+        "se": "Fred"
+      },
+      "categoryFullName": {
+        "en": "The Nobel Peace Prize",
+        "no": "Nobels fredspris",
+        "se": "Nobels fredspris"
+      },
+      "dateAwarded": "1901-12-10",
+      "prizeAmount": 150782,
+      "prizeAmountAdjusted": 10833458,
+      "links": [
+        {
+          "rel": "nobelPrize",
+          "href": "https://api.nobelprize.org/2/nobelPrize/pea/1901",
+          "action": "GET",
+          "types": "application/json"
+        }
+      ],
+      "laureates": [
+        {
+          "id": "462",
+          "knownName": {
+            "en": "Henry Dunant"
+          },
+          "fullName": {
+            "en": "Jean Henry Dunant"
+          },
+          "portion": "1/2",
+          "sortOrder": "1",
+          "motivation": {
+            "en": "for his humanitarian efforts to help wounded soldiers and create international understanding",
+            "no": "for sin humanitære innsats for å hjelpe sårede soldater og skape internasjonal forståelse"
+          },
+          "links": [
+            {
+              "rel": "laureate",
+              "href": "https://api.nobelprize.org/2/laureate/462",
+              "action": "GET",
+              "types": "application/json"
+            }
+          ]
+        },
+        {
+          "id": "463",
+          "knownName": {
+            "en": "Frédéric Passy"
+          },
+          "fullName": {
+            "en": "Frédéric Passy"
+          },
+          "portion": "1/2",
+          "sortOrder": "2",
+          "motivation": {
+            "en": "for his lifelong work for international peace conferences, diplomacy and arbitration",
+            "no": "for sin  livslange innsats for internasjonale fredskonferanser, diplomati og voldgift"
+          },
+          "links": [
+            {
+              "rel": "laureate",
+              "href": "https://api.nobelprize.org/2/laureate/463",
+              "action": "GET",
+              "types": "application/json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "awardYear": "1901",
+      "category": {
+        "en": "Physics",
+        "no": "Fysikk",
+        "se": "Fysik"
+      },
+      "categoryFullName": {
+        "en": "The Nobel Prize in Physics",
+        "no": "Nobelprisen i fysikk",
+        "se": "Nobelpriset i fysik"
+      },
+      "dateAwarded": "1901-11-12",
+      "prizeAmount": 150782,
+      "prizeAmountAdjusted": 10833458,
+      "links": [
+        {
+          "rel": "nobelPrize",
+          "href": "https://api.nobelprize.org/2/nobelPrize/phy/1901",
+          "action": "GET",
+          "types": "application/json"
+        }
+      ],
+      "laureates": [
+        {
+          "id": "1",
+          "knownName": {
+            "en": "Wilhelm Conrad Röntgen"
+          },
+          "fullName": {
+            "en": "Wilhelm Conrad Röntgen"
+          },
+          "portion": "1",
+          "sortOrder": "1",
+          "motivation": {
+            "en": "in recognition of the extraordinary services he has rendered by the discovery of the remarkable rays subsequently named after him",
+            "se": "såsom ett erkännande av den utomordentliga förtjänst han inlagt genom upptäckten av de egendomliga strålar, som sedermera uppkallats efter honom"
+          },
+          "links": [
+            {
+              "rel": "laureate",
+              "href": "https://api.nobelprize.org/2/laureate/1",
+              "action": "GET",
+              "types": "application/json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "awardYear": "1901",
+      "category": {
+        "en": "Physiology or Medicine",
+        "no": "Fysiologi eller medisin",
+        "se": "Fysiologi eller medicin"
+      },
+      "categoryFullName": {
+        "en": "The Nobel Prize in Physiology or Medicine",
+        "no": "Nobelprisen i fysiologi eller medisin",
+        "se": "Nobelpriset i fysiologi eller medicin"
+      },
+      "dateAwarded": "1901-10-30",
+      "prizeAmount": 150782,
+      "prizeAmountAdjusted": 10833458,
+      "links": [
+        {
+          "rel": "nobelPrize",
+          "href": "https://api.nobelprize.org/2/nobelPrize/med/1901",
+          "action": "GET",
+          "types": "application/json"
+        }
+      ],
+      "laureates": [
+        {
+          "id": "293",
+          "knownName": {
+            "en": "Emil von Behring"
+          },
+          "fullName": {
+            "en": "Emil Adolf von Behring"
+          },
+          "portion": "1",
+          "sortOrder": "1",
+          "motivation": {
+            "en": "for his work on serum therapy, especially its application against diphtheria, by which he has opened a new road in the domain of medical science and thereby placed in the hands of the physician a victorious weapon against illness and deaths",
+            "se": "för hans arbete rörande serumterapien och särskilt dess användning mot difteri, varigenom han brutit en ny väg inom den medicinska vetenskapens område och givit läkaren ett segerrikt vapen i kampen mot sjukdom och död"
+          },
+          "links": [
+            {
+              "rel": "laureate",
+              "href": "https://api.nobelprize.org/2/laureate/293",
+              "action": "GET",
+              "types": "application/json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "awardYear": "1969",
+      "category": {
+        "en": "Economic Sciences",
+        "no": "Økonomi",
+        "se": "Ekonomi"
+      },
+      "categoryFullName": {
+        "en": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
+        "no": "Sveriges Riksbanks pris i økonomisk vitenskap til minne om Alfred Nobel",
+        "se": "Sveriges Riksbanks pris i ekonomisk vetenskap till Alfred Nobels minne"
+      },
+      "dateAwarded": "1969-10-27",
+      "prizeAmount": 375000,
+      "prizeAmountAdjusted": 4023190,
+      "links": [
+        {
+          "rel": "nobelPrize",
+          "href": "https://api.nobelprize.org/2/nobelPrize/eco/1969",
+          "action": "GET",
+          "types": "application/json"
+        }
+      ],
+      "laureates": [
+        {
+          "id": "677",
+          "knownName": {
+            "en": "Ragnar Frisch"
+          },
+          "fullName": {
+            "en": "Ragnar Frisch"
+          },
+          "portion": "1/2",
+          "sortOrder": "1",
+          "motivation": {
+            "en": "for having developed and applied dynamic models for the analysis of economic processes",
+            "se": "för utveckling och användning av dynamiska modeller för analys av ekonomiska förlopp"
+          },
+          "links": [
+            {
+              "rel": "laureate",
+              "href": "https://api.nobelprize.org/2/laureate/677",
+              "action": "GET",
+              "types": "application/json"
+            }
+          ]
+        },
+        {
+          "id": "678",
+          "knownName": {
+            "en": "Jan Tinbergen"
+          },
+          "fullName": {
+            "en": "Jan Tinbergen"
+          },
+          "portion": "1/2",
+          "sortOrder": "2",
+          "motivation": {
+            "en": "for having developed and applied dynamic models for the analysis of economic processes",
+            "se": "för utveckling och användning av dynamiska modeller för analys av ekonomiska förlopp"
+          },
+          "links": [
+            {
+              "rel": "laureate",
+              "href": "https://api.nobelprize.org/2/laureate/678",
+              "action": "GET",
+              "types": "application/json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
